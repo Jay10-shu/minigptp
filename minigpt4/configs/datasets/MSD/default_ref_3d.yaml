@@ -1,0 +1,11 @@
+# minigpt4/configs/datasets/MSD/default_ref_3d.yaml
+datasets:
+  MSD_pancreas_ref_3d:
+    data_type: images 
+    build_info:
+      data_dir: "/home/sj/MiniGPT-Pancreas/datasets/Report/toydata"
+      annotations:
+        train:
+          storage: "/home/sj/MiniGPT-Pancreas/datasets/Report/annotations/pancreas_data_all.json"
+      images: # <-- Add this section
+        storage: "/home/sj/MiniGPT-Pancreas/datasets/Report/toydata"
